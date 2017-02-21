@@ -9,5 +9,11 @@ class ApplicationController < ActionController::Base
   
   #'null-object-pattern' Needed to create kind of guest user so there is always a current_user 
   include CurrentUserConcern
+  
+  #Set page defaults (like titles and others)
+  include DefaultPagesContent
+  
+  
+
 
 end
