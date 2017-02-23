@@ -21,8 +21,6 @@
     <%= yield %>
     
     
-    <% if session[:source] %>
-    <P><small>Thanks for visiting me from <%= session[:source] %></small></P>
-    <% end %>
+    <%= source_helper %>
   </body>
 </html>
