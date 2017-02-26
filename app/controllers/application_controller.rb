@@ -13,7 +13,10 @@ class ApplicationController < ActionController::Base
   #Set page defaults (like titles and others)
   include DefaultPagesContent
   
+
   
 
 
+
 end
+

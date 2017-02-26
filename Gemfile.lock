@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/wimodb/mmp_view_tool
+  revision: 31472499b8b6c1a37131cd8922ccf754ca490456
+  specs:
+    mmp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  mmp_view_tool!
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)

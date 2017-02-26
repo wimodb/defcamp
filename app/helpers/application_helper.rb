@@ -18,4 +18,8 @@ module ApplicationHelper
     end
   end
   
+  def copyright_generator
+    MmpViewTool::Renderer.copyright 'Wim Vermeersch', 'Muh rights reserved'
+  end
+  
 end
