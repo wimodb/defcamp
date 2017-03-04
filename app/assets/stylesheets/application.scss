@@ -163,3 +163,19 @@ body {
 }
 
 
+/*
+ * Custom styles  
+ */
+ 
+ .card-block{
+   color: black;
+ }
+ 
+ .auth-links a{
+   color: rgb(21, 54, 73);
+  
+  &:hover{
+    text-decoration: none;
+    color: rgb(90, 132, 172);
+  }
+ }
