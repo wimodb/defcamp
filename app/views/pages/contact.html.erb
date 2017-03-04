@@ -1,9 +1,22 @@
-<h1>Pages#contact</h1>
+<h1>Would you like to work together?</h1>
 
-<p><%= number_to_phone "0474560575" %></p>
+<hr >
 
-<p><%= number_to_currency "150" %></p>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Office adress</h3>
+    <adress>
+      <%= fa_icon "map-marker" %> Klokkeput 13, 8460 Oudenburg<br >
+      West Vlaanderen<br >
+      België<br>
+      <%= fa_icon "phone" %> <%= number_to_phone "0474560575" %><br >
+      <a href="mailto:wimodbvermeersch@gmail.com?subject=PortfolioContact"><%= fa_icon "envelope" %> Email me</a>
+    </adress>
+  </div>
+  
+  <div class="col-md-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.266194956367!2d3.0367560517459316!3d51.17731647948205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dcad2184b7a66f%3A0xffb74ac40ace8bed!2sKlokkeput+8%2C+8460+Oudenburg!5e0!3m2!1snl!2sbe!4v1488628539723" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+<p></p>
 
-<p><%= number_to_percentage "80.4" %></p>
-
-<p><%= number_with_delimiter "123456" %></p>
