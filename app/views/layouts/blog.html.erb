@@ -26,8 +26,11 @@
       <div class="row">
         
 
-        <%= login_helper %>
+        <div class="col-sm-8 blog-main">
+        
         <%= yield %>
+        
+        </div><!-- /.blog-main -->
         
         <div class="col-sm-3 offset-sm-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
@@ -60,20 +63,17 @@
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
-        
-        <footer class="blog-footer">
+        <%= source_helper %>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <footer class="blog-footer">
           <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
           <p>
             <a href="#">Back to top</a>
           </p>
         </footer>
-
-        
-        <%= render "shared/nav", location: 'bottom' %>
-        
-        <%= source_helper %>
-    
-      </div>
     </div>
   </body>
 </html>
