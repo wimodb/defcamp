@@ -1,15 +1,12 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @blog.title %>
+<h2><%= @blog.title %></h2>
 </p>
 
+
+
 <p>
-  <strong>Body:</strong>
   <%= @blog.body %>
 </p>
 
-<%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> |
-<%= link_to 'Delete', blogs_path(@blog) if logged_in?(:site_admin) %> |
-<%= link_to 'Back', blogs_path %>
+<%= link_to 'Edit', edit_blog_path(@blog), class:'btn btn-outline-info' if logged_in?(:site_admin) %>
+<%= link_to 'Delete', blogs_path(@blog), class:'btn btn-outline-danger' if logged_in?(:site_admin) %> 
+
