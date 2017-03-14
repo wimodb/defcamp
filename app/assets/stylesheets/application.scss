@@ -222,3 +222,25 @@ body {
 .app-footer{
   color: white;
 }
+
+.tech-news{
+  color: black;
+  margin: 10px;
+  
+  .card{
+    padding: 1em;
+  }
+  
+  
+  p{
+    text-shadow: none;
+  }
+  
+  a{
+    color: rgb(107, 146, 196);
+    
+    &hover{
+      color: rgb(48, 61, 114);
+    }
+  }
+}
