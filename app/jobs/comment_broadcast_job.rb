@@ -1,0 +1,3 @@
+class CommentBroadCastJob < ApplicationJob
+  
+end
