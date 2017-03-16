@@ -169,3 +169,18 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.comment-card > .card{
+  margin-top: 15px;
+  &:last-child{
+    margin-bottom: 15px;
+  }
+}
+
+.comment-footnote{
+  font-style: italic;
+}
+.comment-name{
+  color: rgb(173, 162, 109);
+  font-style: bold;
+}
