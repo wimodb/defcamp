@@ -3,10 +3,11 @@
     <div class="card-block">
       <div class="row">
       <div class="col-md-1">
-        
+        <%= gravatar_helper comment.user %>
       </div>
       <div class="col-md-11">
-        <%= comment.content %>
+        <p><%= comment.content %></p>
+        <small class="comment-footnote">comment by <span class="comment-name"><%= comment.user.name %></span> <%= time_ago_in_words(comment.created_at) %> ago</small>
       </div>
       </div>
     </div>
